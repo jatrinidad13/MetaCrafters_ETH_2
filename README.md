@@ -1,12 +1,11 @@
-# Starter Next/Hardhat Project
+# Metacrafters_ETH_2
+# Ethereum Calculator DApp
 
-After cloning the github, you will want to do the following to get the code running on your computer.
+This is a simple decentralized application (DApp) that interacts with a smart contract deployed on the Ethereum blockchain to perform basic arithmetic operations (addition and subtraction). The DApp uses MetaMask for wallet management and `ethers.js` to interact with the smart contract.
 
-1. Inside the project directory, in the terminal type: npm i
-2. Open two additional terminals in your VS code
-3. In the second terminal type: npx hardhat node
-4. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
-5. Back in the first terminal, type npm run dev to launch the front-end.
+## Features
 
-After this, the project will be running on your localhost. 
-Typically at http://localhost:3000/
+- Connect to MetaMask wallet
+- Perform addition and subtraction operations using a smart contract
+- Display the result of the operation directly on the front-end
+- React-based front-end with smart contract interaction
